@@ -1,8 +1,4 @@
 <?php
-/*
-@author Aman Srivastava
-@date 27-03-2019
-*/
 	$dbhost = 'localhost';
     $dbuser = 'dev';
     $dbpass = 'root';

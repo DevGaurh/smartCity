@@ -44,8 +44,27 @@ $_SESSION['lng'] = array();
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../dev1.css">
 </head>
 <body>
+<div>
+          <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+          <label for="menu-icon"></label>
+          <nav class="nav"> 		
+              <ul class="pt-5">
+                  <li><a href="../travello/destinations.html" target="_self">Destination</a></li>
+                  <li><a href="../travello/elements.html" target="_self" >Elements</a></li>
+                  <li><a href="../travello/news.html" target="_self" >News</a></li>
+                  <li><a href="../travello/about.html" target="_self" >About</a></li>
+                  <li><a href="../travello/contact.html" target="_self" >Contact</a></li>
+                  
+                </ul>
+          </nav>
+    
+          <!-- <div class="section-center">
+              <h1 class="mb-0">Pure CSS Menu</h1>
+          </div> -->
+        </div>
 
 <!-- Header -->
 <div class="header">
